@@ -1,6 +1,4 @@
-# README para la Optimización del Sitio Web
-
-## Descripción del Sitio
+# Descripción del Sitio
 
 Este repositorio contiene la versión optimizada del sitio web de ejemplo, que ha sido mejorado para reducir los tiempos de carga y mejorar la experiencia del usuario. El sitio está diseñado para ser una representación estática de una página de inicio de sesión, típicamente utilizada para acceder a servicios en línea. Sin embargo, es importante destacar que, debido a la naturaleza estática del sitio y la ausencia de una base de datos o backend funcional, el proceso de inicio de sesión no se puede realizar correctamente.
 
