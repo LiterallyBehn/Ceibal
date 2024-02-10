@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Ceibal v. 5.1.3" name="description" />
+    <link
+      href="https://ingreso.ceibal.edu.uy/loginunico/resources/img/favicon_32x32.ico?v=20200813"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <title>Ingreso Ceibal</title>
+    <link
+      href="https://ingreso.ceibal.edu.uy/loginunico/javax.faces.resource/theme.css.xhtml?ln=primefaces-aristo"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://ingreso.ceibal.edu.uy/loginunico/javax.faces.resource/components.css.xhtml?ln=primefaces&amp;v=8.0"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://ingreso.ceibal.edu.uy/loginunico/javax.faces.resource/css/all.css.xhtml?ln=fontawesome"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://ingreso.ceibal.edu.uy/loginunico/javax.faces.resource/bootstrap.min.css.xhtml?ln=css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://ingreso.ceibal.edu.uy/loginunico/javax.faces.resource/mdb.min.css.xhtml?ln=css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://ingreso.ceibal.edu.uy/loginunico/javax.faces.resource/style.css.xhtml?ln=css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://ingreso.ceibal.edu.uy/loginunico/javax.faces.resource/loginunico.css.xhtml?ln=css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <!-- Contenido del cuerpo del documento HTML -->
+    <noscript
+      ><iframe
+        height="0"
+        src="https://www.googletagmanager.com/ns.html?id=GTM-TQ4GDFX"
+        style="display: none; visibility: hidden"
+        width="0"
+      ></iframe
+    ></noscript>
+    <div class="container-fluid">
+      <div class="row">
+        <div
+          class="col-lg-5 col-xl-4 px-0 bg-white position-relative login-container"
+        >
+          <div class="text-center animated fadeIn espacioLogo">
+            <img
+              alt=""
+              class="img-fluid"
+              height="69"
+              id="logo"
+              src="https://ingreso.ceibal.edu.uy/resources/img/brand/plan-ceibal.svg"
+              width="147"
+            />
+          </div>
+          <div class="contenido-login px-3">
+            <div class="cont-centrado">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <h5 class="text-center animated fadeIn m-responsive">
+                      Inicio de sesión
+                    </h5>
+                  </div>
+                </div>
+                <form
+                  action="https://ingreso.ceibal.edu.uy/loginunico/username.xhtml"
+                  class="needs-validation mt-5"
+                  enctype="application/x-www-form-urlencoded"
+                  id="frmUsername"
+                  method="post"
+                  name="frmUsername"
+                >
+                  <input name="frmUsername" type="hidden" value="frmUsername" />
+                  <span id="frmUsername:j_idt12"></span>
+                  <script type="text/javascript">
+                    $(function () {
+                      PrimeFaces.focus("frmUsername:txtUsername");
+                    });
+                  </script>
+                  <div class="form-row justify-content-center text-center">
+                    <div class="col-12">
+                      <div class="md-form md-bg animated fadeIn">
+                        <input
+                          autocomplete="off"
+                          class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all form-control"
+                          id="frmUsername:txtUsername"
+                          maxlength="45"
+                          name="frmUsername:txtUsername"
+                          type="text"
+                        />
+                        <script
+                          id="frmUsername:txtUsername_s"
+                          type="text/javascript"
+                        >
+                          $(function () {
+                            PrimeFaces.cw(
+                              "InputText",
+                              "widget_frmUsername_txtUsername",
+                              { id: "frmUsername:txtUsername", maxlength: 45 }
+                            );
+                          });
+                        </script>
+                        <label
+                          class="ui-outputlabel ui-widget"
+                          for="frmUsername:txtUsername"
+                          id="frmUsername:j_idt14"
+                          >Documento</label
+                        >
+                        <div
+                          aria-live="polite"
+                          class="ui-messages ui-widget"
+                          id="frmUsername:j_idt16"
+                        ></div>
+                      </div>
+                      <div
+                        class="ui-outputpanel ui-widget text-center mb-0 g-captcha"
+                        id="frmUsername:j_idt18"
+                      >
+                        <div id="frmUsername:capPassword"></div>
+                        <script
+                          id="frmUsername:capPassword_s"
+                          type="text/javascript"
+                        >
+                          $(function () {
+                            PrimeFaces.cw(
+                              "Captcha",
+                              "widget_frmUsername_capPassword",
+                              {
+                                id: "frmUsername:capPassword",
+                                sitekey:
+                                  "6LemhuUUAAAAAGVW0E1HrM2AUXM2U3ApCL3wq5nI",
+                                language: "es",
+                              }
+                            );
+                          });
+                        </script>
+                        <div
+                          aria-atomic="true"
+                          aria-live="polite"
+                          class="error-falta-captcha ui-message"
+                          id="frmUsername:j_idt19"
+                          role="alert"
+                        ></div>
+                        <script
+                          id="frmUsername:j_idt19_s"
+                          type="text/javascript"
+                        >
+                          $(function () {
+                            PrimeFaces.cw(
+                              "Message",
+                              "widget_frmUsername_j_idt19",
+                              {
+                                id: "frmUsername:j_idt19",
+                                target: "frmUsername:capPassword",
+                              }
+                            );
+                          });
+                        </script>
+                      </div>
+                      <button
+                        class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn btn-base m-0 px-2 rounded-pill btn-sm shadow-sm mt-4 login-m-responsive"
+                        id="frmUsername:j_idt20"
+                        name="frmUsername:j_idt20"
+                        onclick='PrimeFaces.ab({s:"frmUsername:j_idt20",f:"frmUsername",u:"frmUsername"});return false;'
+                        type="submit"
+                      >
+                        <span class="ui-button-text ui-c">Siguiente</span>
+                      </button>
+                      <script id="frmUsername:j_idt20_s" type="text/javascript">
+                        $(function () {
+                          PrimeFaces.cw(
+                            "CommandButton",
+                            "widget_frmUsername_j_idt20",
+                            { id: "frmUsername:j_idt20" }
+                          );
+                        });
+                      </script>
+                    </div>
+                  </div>
+                  <p class="animated fadeIn text-center my-3 ingresarCon">
+                    o ingresar con
+                  </p>
+                  <div
+                    class="row justify-content-center text-center btn-ingresar"
+                  >
+                    <div class="col-6 px-2">
+                      <a
+                        class="ui-commandlink ui-widget btn btn-light btn-block m-0 pl-1 pr-2 rounded-pill shadow-sm"
+                        href="#"
+                        id="frmUsername:j_idt22"
+                        onclick='PrimeFaces.ab({s:"frmUsername:j_idt22",f:"frmUsername"});return false;'
+                        ><img
+                          alt="Login con Google"
+                          class="img-fluid icono-opciones"
+                          height="18"
+                          id="logo-btn"
+                          src="https://ingreso.ceibal.edu.uy/loginunico/resources/img/brand/google-icon.png"
+                          width="18"
+                        />
+                        <span>Google Ceibal</span></a
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="row justify-content-center text-center btn-ingresar mb-0"
+                  >
+                    <div class="col-6 px-2">
+                      <a
+                        class="ui-commandlink ui-widget btn btn-light btn-block m-0 pl-1 pr-2 rounded-pill shadow-sm"
+                        href="#"
+                        id="frmUsername:j_idt25"
+                        onclick='PrimeFaces.ab({s:"frmUsername:j_idt25",f:"frmUsername"});return false;'
+                        ><img
+                          alt="Login con DGEIP"
+                          class="img-fluid icono-opciones"
+                          height="18"
+                          id="logo-btn"
+                          src="https://ingreso.ceibal.edu.uy/loginunico/resources/img/brand/ceip-icon.png"
+                          style="width: 22px"
+                          width="18"
+                        />
+                        <span>DGEIP</span></a
+                      >
+                    </div>
+                  </div>
+                  <input
+                    autocomplete="off"
+                    id="j_id1:javax.faces.ViewState:0"
+                    name="javax.faces.ViewState"
+                    type="hidden"
+                    value="2877976435061733962:3947171679679024470"
+                  />
+                </form>
+              </div>
+              <div>
+                <div
+                  class="ui-outputpanel ui-widget containerMsj container pt-4"
+                  id="j_idt29"
+                >
+                  <div class="msj-bottom text-center">
+                    <p>
+                      Si aún no te has registrado como usuario/a y querés<br />
+                      acceder a las plataformas,<br />
+                      hacé
+                      <a
+                        href="https://aulas.ceibal.edu.uy/registrarme/"
+                        target="_blank"
+                        >clic aquí.</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer">
+            <div class="py-2 contenedor-politica">
+              <a
+                class="text-center"
+                href="https://politicas.ceibal.edu.uy/"
+                target="_blank"
+              >
+                <p class="m-0">Política de privacidad</p></a
+              >
+              <div class="version">v5.1.3</div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-7 col-xl-8 d-none d-md-flex animated fadeIn portada-bg-image"
+          style="
+            background-image: url('https://ingreso.ceibal.edu.uy/portada?uuid=ab37568e-a09d-4def-88e3-485aa725a3e5');
+          "
+          title="Seguí toda la Escuela de Verano - Clic aquí"
+        >
+          <a
+            class="portada-link"
+            href="https://bit.ly/42njR0L"
+            target="_blank"
+          ></a>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://ingreso.ceibal.edu.uy/resources/js/popper.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="https://ingreso.ceibal.edu.uy/resources/js/bootstrap.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="https://ingreso.ceibal.edu.uy/resources/js/mdb.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="https://ingreso.ceibal.edu.uy/resources/js/validation.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="https://ingreso.ceibal.edu.uy/loginunico/resources/js/show-hide-pass.js"
+      type="text/javascript"
+    ></script>
+    <form
+      action="https://ingreso.ceibal.edu.uy/loginunico/username.xhtml"
+      class="needs-validation"
+      enctype="application/x-www-form-urlencoded"
+      id="frmGeneral"
+      method="post"
+      name="frmGeneral"
+    >
+      <input name="frmGeneral" type="hidden" value="frmGeneral" />
+      <script id="frmGeneral:j_idt38_s" type="text/javascript">
+        $(function () {
+          PrimeFaces.cw("IdleMonitor", "widget_frmGeneral_j_idt38", {
+            id: "frmGeneral:j_idt38",
+            timeout: 1800000,
+            multiWindowSupport: false,
+            contextPath: "\/loginunico",
+            onidle: function () {
+              document.location = "https://ingreso.ceibal.edu.uy/login";
+            },
+          });
+        });
+      </script>
+      <input
+        autocomplete="off"
+        id="j_id1:javax.faces.ViewState:1"
+        name="javax.faces.ViewState"
+        type="hidden"
+        value="2877976435061733962:3947171679679024470"
+      />
+    </form>
+    <!-- Scripts al final del body para carga diferida -->
+    <script
+      defer
+      src="https://ingreso.ceibal.edu.uy/loginunico/javax.faces.resource/jquery/jquery.js.xhtml?ln=primefaces&amp;v=8.0"
+    ></script>
+    <script
+      defer
+      src="https://ingreso.ceibal.edu.uy/loginunico/javax.faces.resource/jquery/jquery-plugins.js.xhtml?ln=primefaces&amp;v=8.0"
+    ></script>
+    <script
+      defer
+      src="https://ingreso.ceibal.edu.uy/loginunico/javax.faces.resource/core.js.xhtml?ln=primefaces&amp;v=8.0"
+    ></script>
+    <script
+      defer
+      src="https://ingreso.ceibal.edu.uy/loginunico/javax.faces.resource/components.js.xhtml?ln=primefaces&amp;v=8.0"
+    ></script>
+    <script
+      defer
+      src="https://ingreso.ceibal.edu.uy/loginunico/javax.faces.resource/captcha/captcha.js.xhtml?ln=primefaces&amp;v=8.0"
+    ></script>
+    <script
+      defer
+      src="https://ingreso.ceibal.edu.uy/loginunico/javax.faces.resource/idlemonitor/idlemonitor.js.xhtml?ln=primefaces&amp;v=8.0"
+    ></script>
+    <script
+      defer
+      src="https://ingreso.ceibal.edu.uy/resources/js/popper.min.js"
+    ></script>
+    <script
+      defer
+      src="https://ingreso.ceibal.edu.uy/resources/js/bootstrap.min.js"
+    ></script>
+    <script
+      defer
+      src="https://ingreso.ceibal.edu.uy/resources/js/mdb.min.js"
+    ></script>
+    <script
+      defer
+      src="https://ingreso.ceibal.edu.uy/resources/js/validation.js"
+    ></script>
+    <script
+      defer
+      src="https://ingreso.ceibal.edu.uy/loginunico/resources/js/show-hide-pass.js"
+    ></script>
+  </body>
+</html>
